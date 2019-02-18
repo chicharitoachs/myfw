@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ae4a11a56d4d4922934bbe6782508571" Name="Diagram1">
+        <EntityTypeShape EntityType="HSLTModel.AnPham" Width="1.5" PointX="29" PointY="108.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.CtNhapKhoAP" Width="1.5" PointX="31.25" PointY="112.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.CtXuatKhoAP" Width="1.5" PointX="34.25" PointY="112.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.CtYeuCauAP" Width="1.5" PointX="31.25" PointY="99.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.NhapKhaiThacAP" Width="1.5" PointX="25.25" PointY="107.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.NhapKhoAP" Width="1.5" PointX="29" PointY="122" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.PhieuYeuCauAP" Width="1.5" PointX="23" PointY="94.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.XuatKhaiThacAP" Width="1.5" PointX="25.25" PointY="113" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.XuatKhoAP" Width="1.5" PointX="32" PointY="106" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.ChiTietHangDay" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.ChiTietTangPhong" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.ChuyenKho" Width="1.5" PointX="9" PointY="72.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.CtChuyenKho" Width="1.5" PointX="11.25" PointY="84.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.CtNhapKho" Width="1.5" PointX="5.25" PointY="92.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.CtTonDauKy" Width="1.5" PointX="17.75" PointY="69.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.CtXuatKho" Width="1.5" PointX="22.25" PointY="88.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.GiaKe" Width="1.5" PointX="17.75" PointY="74.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.HangDay" Width="1.5" PointX="15.5" PointY="74.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.HopCap" Width="1.5" PointX="3" PointY="86" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.Kho" Width="1.5" PointX="13.25" PointY="71.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.NganTang" Width="1.5" PointX="0.75" PointY="79.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.NhapKho" Width="1.5" PointX="3" PointY="97.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.TangPhong" Width="1.5" PointX="13.25" PointY="78.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.TonDauKy" Width="1.5" PointX="15.5" PointY="69" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.XuatKho" Width="1.5" PointX="6" PointY="84" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.CtDotChinhLy" Width="1.5" PointX="8" PointY="92.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.DotChinhLy" Width="1.5" PointX="0.75" PointY="86.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.HeThongHoSo" Width="1.5" PointX="9" PointY="88.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.LyDoHuyHoSo" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.MucLucHoSo" Width="1.5" PointX="9" PointY="80" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.ChuDeAnPham" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.DonVi" Width="1.5" PointX="13.25" PointY="92.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.HinhThucKhaiThac" Width="1.5" PointX="31" PointY="79.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.KichThuocAnPham" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.LoaiAnPham" Width="1.5" PointX="4.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.LoaiVanBan" Width="1.5" PointX="20" PointY="79" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.NgonNgu" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.NguoiKy" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.NhanVien" Width="1.5" PointX="17.75" PointY="90" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.PhanLoaiHoSo" Width="1.5" PointX="17.75" PointY="85.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.PhongBan" Width="1.5" PointX="15.5" PointY="92.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.PhongLuuTru" Width="1.5" PointX="11" PointY="91.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.ThoiHanBaoQuan" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.TinhTrangVatLy" Width="1.5" PointX="15.5" PointY="65" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.DocumentFile" Width="1.5" PointX="23.75" PointY="72.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.HoSo" Width="1.5" PointX="20" PointY="83.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.ThongTinVanBan" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.VanBan" Width="1.5" PointX="22.25" PointY="78.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.eDoc_DonVi" Width="1.5" PointX="31.75" PointY="67.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.eDoc_HoSo" Width="1.5" PointX="34" PointY="68.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.eDoc_NguoiDung" Width="1.5" PointX="31.75" PointY="73.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.eDoc_NguoiDungPhongBan" Width="1.5" PointX="39" PointY="71.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.eDoc_NguoiKy" Width="1.5" PointX="8.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.eDoc_VaiTro" Width="1.5" PointX="29.5" PointY="74.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.eDoc_VanBan" Width="1.5" PointX="36.25" PointY="65.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.SettingSyncEdoc" Width="1.5" PointX="2.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.ChucNang" Width="1.5" PointX="22.75" PointY="103.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.Comment" Width="1.5" PointX="4.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.NguoiDung" Width="1.5" PointX="20" PointY="101.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.NhatKyHeThong" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.VaiTro" Width="1.5" PointX="25" PointY="89.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.CtPhucVu" Width="1.5" PointX="33.25" PointY="84.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.CtYeuCau" Width="1.5" PointX="37.25" PointY="93.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.NhapKhaiThac" Width="1.5" PointX="39.25" PointY="87.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.PhieuPhucVu" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.PhieuYeuCau" Width="1.5" PointX="31" PointY="84.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.XuatKhaiThac" Width="1.5" PointX="40.25" PointY="93.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.CtGiaoNop" Width="1.5" PointX="31.25" PointY="94" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.DotGiaoNop" Width="1.5" PointX="26" PointY="94.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.CtDotSoHoa" Width="1.5" PointX="27.25" PointY="80" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.DotSoHoa" Width="1.5" PointX="0.75" PointY="95.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.CtTieuHuy" Width="1.5" PointX="34.25" PointY="93.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.DotTieuHuy" Width="1.5" PointX="25" PointY="82.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.CtDeNghi" Width="1.5" PointX="36.25" PointY="85.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.CtDuKien" Width="1.5" PointX="33.5" PointY="98.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.CtKeHoach" Width="1.5" PointX="22.25" PointY="115.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.CtTiepNhan" Width="1.5" PointX="41.5" PointY="86.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.DmDeNghi" Width="1.5" PointX="28" PointY="87.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.DmDuKien" Width="1.5" PointX="28.25" PointY="101.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.DmTiepNhan" Width="1.5" PointX="29" PointY="94" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.KeHoachGiaoNop" Width="1.5" PointX="20" PointY="137.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.TongHopDmDuKien" Width="1.5" PointX="26" PointY="101.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.DocumentFile_test" Width="1.5" PointX="10.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.eDoc_HoSo_bak" Width="1.5" PointX="6.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HSLTModel.eDoc_VanBan_bak" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="HSLTModel.FK_AnPham_GiaKe" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_AnPham_HangDay" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_AnPham_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_AnPham_NganTang" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_AnPham_TangPhong" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_AP_CtYeuCau_AnPham" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtNhapKho_AnPham" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtXuatKho_AnPham" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtNhapKho_NhapKhoAP" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtXuatKho_XuatKhoAP" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_AP_CtYeuCau_PhieuYeuCau" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_AP_NhapKhaiThac_PhieuYeuCau" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_AP_PhieuYeuCau_HinhThucKhaiThac" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_AP_PhieuYeuCau_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_AP_XuatKhaiThac_PhieuYeuCau" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtChuyenKho_ChuyenKho" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtChuyenKho_HopCap" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtNhapKho_HopCap" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtNhapKho_HoSo" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtNhapKho_NhapKho" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtTonDauKy_TinhTrangVatLy" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtTonDauKy_TonDauKy" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtXuatKho_HopCap" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtXuatKho_HoSo" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtXuatKho_XuatKho" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_GiaKe_HangDay" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_GiaKe_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_GiaKe_TangPhong" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HopCap_GiaKe" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HoSo_GiaKe" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_NganTang_GiaKe" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HangDay_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HangDay_TangPhong" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HopCap_HangDay" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HoSo_HangDay" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_NganTang_HangDay" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HopCap_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HopCap_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HopCap_NganTang" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HopCap_PhongBan" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HopCap_PhongLuuTru" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HopCap_TangPhong" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HoSo_HopCap" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HoSo_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_NganTang_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_TangPhong_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_TonDauKy_Kho" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HoSo_NganTang" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_NganTang_TangPhong" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_NhapKho_DotChinhLy" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HoSo_TangPhong" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_XuatKho_DotChinhLy" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_XuatKho_DotGiaoNop" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_XuatKho_DotTieuHuy" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtDotChinhLy_DotChinhLy" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtDotChinhLy_HoSo" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_MucLucHoSo_DotChinhLy" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_PhanLoaiHoSo_DotChinhLy" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_PhanLoaiHoSo_PhongLuuTru" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HoSo_MucLucHoSo" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_MucLucHoSo_PhongLuuTru" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtDeNghi_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtDuKien_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtKeHoach_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtTiepNhan_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_DonVi_PhongLuuTru" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HoSo_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_PhieuYeuCau_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_PhongBan_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtPhucVu_HinhThucKhaiThac" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_PhieuYeuCau_HinhThucKhaiThac" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_VanBan_LoaiVanBan" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtDeNghi_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtDuKien_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtTiepNhan_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtYeuCau_NguoiLap" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_DmDeNghi_NguoiLap" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_DmDeNghi_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_DmTiepNhan_NhanVien_Giao" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_DmTiepNhan_NhanVien_LapHoSo" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_DmTiepNhan_NhanVien_Nhan" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_DotGiaoNop_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_DotTieuHuy_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HoSo_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_KeHoachGiaoNop_NguoiLap" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_NguoiDung_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_NhanVien_PhongBan" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_NhapKhaiThac_NguoiGiao" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_NhapKhaiThac_NguoiNhap" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_PhieuYeuCau_NguoiDuyet" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_PhieuYeuCau_NguoiMuon" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_PhieuYeuCau_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_TongHopDmDuKien_NguoiLap" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_TongHopDmDuKien_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_XuatKhaiThac_NguoiNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_XuatKhaiThac_NguoiXuat" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HoSo_PhanLoai" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtDeNghi_PhongBan" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtDuKien_PhongBan" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtTiepNhan_PhongBan" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_DmTiepNhan_PhongBan" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HoSo_PhongBan" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_PhieuYeuCau_PhongBan" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_HoSo_PhongLuuTru" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_TongHopDmDuKien_PhongLuuTru" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtDeNghi_HoSo" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtDotSoHoa_HoSo" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtDuKien_HoSo" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtGiaoNop_HoSo" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtPhucVu_HoSo" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtTiepNhan_HoSo" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtTieuHuy_HoSo" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_VanBan_HoSo" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtPhucVu_VanBan" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_eDoc_HoSo_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_eDoc_HoSo_PhongBan" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_eDoc_NguoiDung_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_eDoc_NguoiDungPhongBan_DonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtDeNghi_HoSoEdoc" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtTiepNhan_HoSoEdoc" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_eDoc_HoSo_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_eDoc_VanBan_HoSo" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_eDoc_NguoiDung_VaiTro" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_eDoc_NguoiDungPhongBan_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_eDoc_NguoiDungPhongBan_VaiTro" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtPhucVu_CtYeuCau" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtPhucVu_NhapKhaiThac" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtPhucVu_PhieuYeuCau" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtPhucVu_XuatKhaiThac" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtYeuCau_PhieuYeuCau" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_NhapKhaiThac_PhieuYeuCau" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_XuatKhaiThac_PhieuYeuCau" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtGiaoNop_DotGiaoNop" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtDotSoHoa_DotSoHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtTieuHuy_DotTieuHuy" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtDeNghi_CtDuKien" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtDeNghi_DmDeNghi" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtTiepNhan_CtDeNghi" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtDuKien_DmDuKien" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtKeHoach_DmDuKien" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtKeHoach_KeHoachGiaoNop" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_CtTiepNhan_DmTiepNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_DmDeNghi_DmDuKien" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.FK_DmDuKien_TongHopDmDuKien" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.DotChinhLyHopCap" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.DotChinhLyPhongLuuTru" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.NguoiDungVaiTro" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.VaiTroChucNang" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.DotGiaoNopDotChinhLy" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.DotGiaoNopFile" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.DotGiaoNopPhongLuuTru" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.DotSoHoaHopCap" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.DotTieuHuyDotChinhLy" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.DotTieuHuyFile" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.DotTieuHuyPhongLuuTru" ManuallyRouted="false" />
+        <AssociationConnector Association="HSLTModel.TongHopDuKienPhongLuuTru" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

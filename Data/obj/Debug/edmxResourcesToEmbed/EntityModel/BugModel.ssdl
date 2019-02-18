@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BugModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BugType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" />
+    <Property Name="Color" Type="varchar" MaxLength="50" />
+    <Property Name="Signal" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="500" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="CreatedById" Type="bigint" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedById" Type="bigint" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+    <Property Name="Is_Delete" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Priority">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Signal" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Color" Type="nvarchar" MaxLength="50" />
+    <Property Name="Content" Type="ntext" />
+    <Property Name="Order" Type="int" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="CreatedById" Type="bigint" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedById" Type="bigint" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+    <Property Name="Is_Delete" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Signal" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Color" Type="nvarchar" MaxLength="50" />
+    <Property Name="Content" Type="ntext" />
+    <Property Name="IsReOpen" Type="bit" Nullable="false" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="CreatedById" Type="bigint" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedById" Type="bigint" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+    <Property Name="Is_Delete" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StatusToStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Board_Id" Type="bigint" Nullable="false" />
+    <Property Name="FromStatus" Type="bigint" Nullable="false" />
+    <Property Name="ToStatus" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Boards">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Signal" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="500" />
+    <Property Name="Content" Type="ntext" />
+    <Property Name="StartDate" Type="date" />
+    <Property Name="EndDate" Type="date" />
+    <Property Name="Project_Id" Type="bigint" Nullable="false" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="CreatedById" Type="bigint" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedById" Type="bigint" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+    <Property Name="Is_Delete" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BugDetails">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" />
+    <Property Name="Action" Type="int" />
+    <Property Name="Bug_Id" Type="bigint" />
+    <Property Name="Description" Type="ntext" />
+    <Property Name="CreatedById" Type="bigint" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedById" Type="bigint" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+    <Property Name="Is_Delete" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Bugs">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Description" Type="ntext" />
+    <Property Name="Assignee_Id" Type="bigint" />
+    <Property Name="ScheduledDate" Type="datetime" />
+    <Property Name="DueDate" Type="datetime" />
+    <Property Name="Type_Id" Type="bigint" />
+    <Property Name="Priority_Id" Type="bigint" />
+    <Property Name="Board_Id" Type="bigint" Nullable="false" />
+    <Property Name="Status" Type="bigint" Nullable="false" />
+    <Property Name="CreatedById" Type="bigint" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedById" Type="bigint" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+    <Property Name="Is_Delete" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Project">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Signal" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="500" />
+    <Property Name="Content" Type="ntext" />
+    <Property Name="StartDate" Type="date" />
+    <Property Name="EndDate" Type="date" />
+    <Property Name="Manager" Type="bigint" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="CreatedById" Type="bigint" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedById" Type="bigint" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+    <Property Name="Is_Delete" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GroupMapRole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" />
+    <Property Name="Project_Id" Type="bigint" />
+    <Property Name="Group_Id" Type="bigint" />
+    <Property Name="Role_Id" Type="bigint" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="CreatedById" Type="bigint" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedById" Type="bigint" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+    <Property Name="Is_Delete" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GroupUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Color" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="ntext" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="CreatedById" Type="bigint" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedById" Type="bigint" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+    <Property Name="Is_Delete" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" />
+    <Property Name="Type" Type="int" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Link" Type="varchar" MaxLength="500" />
+    <Property Name="Description" Type="ntext" />
+    <Property Name="Project_Id" Type="bigint" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="CreatedById" Type="bigint" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedById" Type="bigint" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+    <Property Name="Is_Delete" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="PhoneNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="CreatedById" Type="bigint" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedById" Type="bigint" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+    <Property Name="Is_Delete" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserMapRole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" />
+    <Property Name="Project_Id" Type="bigint" />
+    <Property Name="User_Id" Type="bigint" />
+    <Property Name="Role_Id" Type="bigint" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="CreatedById" Type="bigint" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedById" Type="bigint" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+    <Property Name="Is_Delete" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="BugModelStoreContainer">
+    <EntitySet Name="BugType" EntityType="Self.BugType" Schema="CT" store:Type="Tables" />
+    <EntitySet Name="Priority" EntityType="Self.Priority" Schema="CT" store:Type="Tables" />
+    <EntitySet Name="Status" EntityType="Self.Status" Schema="CT" store:Type="Tables" />
+    <EntitySet Name="StatusToStatus" EntityType="Self.StatusToStatus" Schema="CT" store:Type="Tables" />
+    <EntitySet Name="Boards" EntityType="Self.Boards" Schema="PR" store:Type="Tables" />
+    <EntitySet Name="BugDetails" EntityType="Self.BugDetails" Schema="PR" store:Type="Tables" />
+    <EntitySet Name="Bugs" EntityType="Self.Bugs" Schema="PR" store:Type="Tables" />
+    <EntitySet Name="Project" EntityType="Self.Project" Schema="PR" store:Type="Tables" />
+    <EntitySet Name="GroupMapRole" EntityType="Self.GroupMapRole" Schema="SY" store:Type="Tables" />
+    <EntitySet Name="GroupUser" EntityType="Self.GroupUser" Schema="SY" store:Type="Tables" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" Schema="SY" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="SY" store:Type="Tables" />
+    <EntitySet Name="UserMapRole" EntityType="Self.UserMapRole" Schema="SY" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

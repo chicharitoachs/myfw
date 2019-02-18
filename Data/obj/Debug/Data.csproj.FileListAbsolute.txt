@@ -1,0 +1,13 @@
+D:\AC\bug\bugmanager\Data\bin\Debug\Data.dll.config
+D:\AC\bug\bugmanager\Data\bin\Debug\Data.dll
+D:\AC\bug\bugmanager\Data\bin\Debug\Data.pdb
+D:\AC\bug\bugmanager\Data\bin\Debug\EntityFramework.dll
+D:\AC\bug\bugmanager\Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\AC\bug\bugmanager\Data\bin\Debug\NLog.dll
+D:\AC\bug\bugmanager\Data\bin\Debug\EntityFramework.xml
+D:\AC\bug\bugmanager\Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\AC\bug\bugmanager\Data\bin\Debug\NLog.xml
+D:\AC\bug\bugmanager\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\AC\bug\bugmanager\Data\obj\Debug\Data.dll
+D:\AC\bug\bugmanager\Data\obj\Debug\Data.pdb
+D:\AC\bug\bugmanager\Data\bin\Debug\CommonServiceLocator.dll
